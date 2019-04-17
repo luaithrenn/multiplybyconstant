@@ -10,7 +10,7 @@ class MultiplyBySix(BaseTransformer):
     Multiply input column by 6 to produce a result
     '''
 
-    def __init__(self, input_item=input_item, result='result'):
+    def __init__(self, input_item = input_item, result ='result'):
 
         self.input_item = input_item
         self.result = result
