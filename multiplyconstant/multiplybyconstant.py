@@ -1,4 +1,4 @@
-Package_URL = 'git+https://github.ibm.com/Luaithrenn/multiplybyconstant.git'
+Package_URL = 'git+https://github.com/luaithrenn/multiplybyconstant.git'
 
 import numpy as np
 import pandas as pandas
