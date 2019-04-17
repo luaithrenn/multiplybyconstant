@@ -16,7 +16,7 @@ class MultiplyBySix(BaseTransformer):
         self.result = result
         super().__init__()
 
-    def execute (self, df)
+    def execute(self, df):
         df = df.copy()
         df[self.result] = df[self.input_item] * 6
 
