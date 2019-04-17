@@ -15,9 +15,8 @@ class MultiplyBySix(BaseTransformer):
     def _init__(self, input_item, output_item = 'output_item'):
 
         self.input_item = input_item
-        self.result = result
-        s
-        uper().__init__()
+        self.output_item =  output_item
+        super().__init__()
 
     def execute(self, df):
         df = df.copy()
